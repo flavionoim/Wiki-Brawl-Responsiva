@@ -40,40 +40,33 @@ body {
 }
 #modo-de-jogo {
   text-align: center;
-  padding-left: 120px;
-  padding-right: 120px;
+  padding: 0 100px;
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
   flex-direction: column;
   align-items: center;
 }
 .modos-extras {
   text-align: center;
-  padding-left: 120px;
-  padding-right: 120px;
+  padding: 0 100px;
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
   flex-direction: column;
   align-items: center;
 }
 #parcerias {
   margin-top: 180px;
   text-align: center;
-  padding-left: 120px;
-  padding-right: 120px;
+  padding: 0 100px;
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
   flex-direction: column;
   align-items: center;
 }
 
 #Brawlers {
   text-align: center;
-  padding-left: 120px;
-  padding-right: 120px;
+  padding: 0 100px;
   display: flex;
   justify-content: space-between;
   align-content: center;
@@ -219,6 +212,8 @@ footer {
   height: auto;
 }
 
+
+
 @media (max-width: 585px){
     header{
         flex-direction: column;
@@ -227,4 +222,10 @@ footer {
     .explicacao{
         flex-direction: column;
     }
+
+    #mechaguidorah-e-mothra{
+      display: flex;
+      justify-content: center;
+    }
+
 }
